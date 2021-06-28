@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>336 - Red Wolves</title>
+    <base href="/">
+    <link rel="icon" href="/redwolf-icon.png" type="image/gif" sizes="16x16" />
+    <meta
+      name="description"
+      content="336 TRS - Red Wolves Website. Basic resources freely accessible."
+    />
+    <meta name="keywords" content="336, trs, red wolves, red wolf, 336 trs" />
+    <meta name="author" content="A1C Leon Guerrero" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="336 TRS" />
+    <meta
+      property="og:url"
+      content="https://336.pages.dev/"
+    />
+    <meta property="og:image" content="/redwolf-icon.png" />
+    <meta
+      property="og:description"
+      content="336 TRS - Red Wolves Website. Basic resources freely accessible."
+    />
+    <meta property="og:site_name" content="Red Wolves 336 TRS" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <!--prefetch content-->
+    <script src="fetch.js"></script>
+  </head>
+  <body>
+    <nav class="nav-extended black">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Red Wolves</a>
+        <a href="#" data-target="mobile-links" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down"></ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-links"></ul>
+    <!--Create Nav Links-->
+    <script async>
+      navLinks("mobile-links");
+      navLinks("nav-mobile");
+    </script>
+    <!-----------------END NAV-------------------------->
+    <main class="container">
+      <div class="section page_section" id="home">
+        <h4 class="center">
+          Welcome Red Wolves!
+        </h4>
+        <div class="card-panel">
+          <span class=" text-darken-2 ">
+            <strong>Info:</strong> This site is still under development. To
+            report any bugs, discrepancies, or suggestions, please fill out our
+            online form by clicking
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfsaKp0mL5ISVVuWQnq5icr2TFUZ48pNbeiLh-0kGKZfbkKdw/viewform?usp=sf_link"
+              target="_blank"
+              class="alert-link"
+              >here</a
+            >.</span
+          >
+        </div>
+        <div class="section">
+          <p>
+            If you are not on slack, please ask your roommate, or wingmen for a
+            new invite link (invites expire). Slack is our primary form of
+            communication within our squadron. You should be in at least two
+            Slack workspaces: 336 TRS Airmen Info Space, and your team MTL's
+            workspace.
+          </p>
+        </div>
+        <div class="section">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card medium blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Contacts</span>
+                  <p>
+                    Contact information, directions, and facility hours of
+                    operation.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#contacts">Go to Page</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfsaKp0mL5ISVVuWQnq5icr2TFUZ48pNbeiLh-0kGKZfbkKdw/viewform?usp=sf_link"
+                    target="_blank"
+                    >Submit a Request</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card medium blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Red Wolf Website</span>
+                  <p>
+                    The original Red Wolf website which inspired the creation of
+                    this website. <br />
+                    Contains more information regarding AFSC, resources for
+                    Security+, and reporting instructions.
+                    <br />Created by, <br />GS11 Mortenson
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="http://336trs.com/" target="_blank">Go to Site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row section page_section" id="contacts" style="display: none">
+        <div class="section">
+          <div class="input-field">
+            <input
+              placeholder="Search"
+              id="search_contacts"
+              type="text"
+              onkeyup="searchContacts()"
+              class=""
+            />
+            <label for="search_contacts">Search Contacts</label>
+          </div>
+        </div>
+        <ul class="collapsible" id="contacts-list"></ul>
+      </div>
+    </main>
+    <!--FOOTER----------------------------------------------------------------->
+    <footer class="black page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">336 TRS</h5>
+            <p class="grey-text text-lighten-4">
+              Red Wolves
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Resources</h5>
+            <ul>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="http://336trs.com/"
+                  target="_blank"
+                  >336trs.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="https://www.my.af.mil/"
+                  target="_blank"
+                  >AF Portal</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="https://webmail.apps.mil/mail/inbox"
+                  target="_blank"
+                  >AF Email (External)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="https://www.defensetravel.dod.mil/neoaccess/login.php?goto=https%3A%2F%2Fwww.defensetravel.dod.mil%3A443%2Fneotrax%2Ftraining%2Findex.php#"
+                  target="_blank"
+                  >Gov. Travel Card</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="https://www.defensetravel.dod.mil/"
+                  target="_blank"
+                  >DTMO</a
+                >
+              </li>
+              <li><a class="grey-text text-lighten-3" href=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="section grey-text text-lighten-4">
+          This site has no affiliation to, nor sponsorship from the DoD, or the
+          USAF. Inspired by the website:
+          <a
+            class="grey-text text-lighten-6"
+            href="http://336trs.com/"
+            target="_blank"
+            >Red Wolves</a
+          >
+          website. This site was made as a personal project, completely free,
+          and costs nothing to maintain.
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Created By: A1C Leon Guerrero, CJ
+          <a class="grey-text text-lighten-4 right">Updated: 28 June 2021</a>
+        </div>
+      </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="contacts.js" async></script>
+    <script>
+      M.AutoInit();
+      hashCheck();
+      window.addEventListener(
+        "hashchange",
+        function() {
+          hashCheck();
+        },
+        false
+      );
+      function hashCheck() {
+        console.log("checking hash");
+        var hash = location.hash.substr(1);
+        var pages = document.getElementsByClassName("page_section");
+        var target = "";
+        if (hash == "") {
+          target = "home";
+        }
+        for (i = 0; i < pages.length; i++) {
+          if (hash == pages[i].id) {
+            pages[i].style.display = "";
+          } else if (hash == "") {
+            if (pages[i].id == "home") {
+              pages[i].style.display = "";
+            } else {
+              pages[i].style.display = "none";
+            }
+          } else {
+            pages[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

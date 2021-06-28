@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Mini-mall",
+    "hours": [
+      "10:00 - 20:00",
+      "10:00 - 20:00",
+      "10:00 - 20:00",
+      "10:00 - 20:00",
+      "10:00 - 20:00",
+      "10:00 - 18:00",
+      "10:00 - 18:00"
+    ],
+    "maps": "https://www.google.com/maps/place/Shopette/@30.399216,-88.9199422,19.75z/data=!4m5!3m4!1s0x0:0x635bf1a41556c1ca!8m2!3d30.3991285!4d-88.9196596"
+  },
+  {
+    "name": "Keesler BX",
+    "tel": "228-435-2524",
+    "hours": [
+      "09:00 - 19:00",
+      "09:00 - 19:00",
+      "09:00 - 19:00",
+      "09:00 - 19:00",
+      "09:00 - 19:00",
+      "N/A",
+      "N/A"
+    ],
+    "maps": "https://www.google.com/maps/place/Keesler+Base+Exchange/@30.4048697,-88.9077519,16.83z/data=!4m5!3m4!1s0x0:0x847f45c384bc5973!8m2!3d30.4062525!4d-88.9093427"
+  },
+  {
+    "name": "Pass Registration and Visitor Reception Center (Visitor Control Center)(VCC)",
+    "tel": "228-377-3834",
+    "hours": [
+      "6AM–5PM",
+      "6AM–5PM",
+      "6AM–5PM",
+      "6AM–5PM",
+      "6AM–4PM",
+      "CLOSED",
+      "CLOSED"
+    ],
+    "maps": "https://www.google.com/maps/place/Pass+Registration+and+Visitor+Reception+Center/@30.3996908,-88.9088828,17.25z/data=!4m5!3m4!1s0x889c0fc195109487:0x43f9e12536c9b1c6!8m2!3d30.3989551!4d-88.9107895?hl=en"
+  },
+  {
+    "name": "Outprocessing: Short Sheet Briefing (at SPC)",
+    "hours": ["16:20", "16:20", "16:20", "N/A", "N/A", "N/A", "N/A"],
+    "maps": ""
+  },
+  {
+    "name": "Hospital:",
+    "hours": ["OPEN", "OPEN", "OPEN", "OPEN", "OPEN", "OPEN", "OPEN"],
+    "maps": "https://www.google.com/maps/place/Keesler+Medical+Center/@30.4119026,-88.9112996,18.75z/data=!4m9!1m2!2m1!1shospital!3m5!1s0x0:0x74cf0b1b2228cd41!8m2!3d30.412556!4d-88.9106631!15sCghob3NwaXRhbJIBEW1pbGl0YXJ5X2hvc3BpdGFs"
+  },
+  {
+    "name": "Outprocessing: SPC",
+    "hours": [
+      "14:00-16:00",
+      "14:00-16:00",
+      "14:00-16:00",
+      "14:00-16:00",
+      "13:00-14:45",
+      "CLOSED",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "Outprocessing: Travel Management Office (TMO)",
+    "hours": ["16:00", "16:00", "16:00", "16:00", "N/A", "CLOSED", "CLOSED"]
+  },
+  {
+    "name": "TMO Customer Service Office (Travel Management Office)",
+    "hours": [
+      "08:00 - 16:00",
+      "08:00 - 16:00",
+      "08:00 - 16:00",
+      "08:00 - 16:00",
+      "08:00 - 15:00",
+      "CLOSED",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "Travel Management Office (TMO) Entitlement Brief",
+    "hours": ["16:00", "16:00", "16:00", "16:00"],
+    "desc": "Room 221"
+  },
+  {
+    "name": "Levitow Finance Office",
+    "hours": [
+      "07:30 - 16:45",
+      "07:30 - 16:45",
+      "07:30 - 16:45",
+      "07:30 - 16:45",
+      "CLOSED",
+      "CLOSED",
+      "CLOSED"
+    ],
+    "desc": "Closed 11:30 - 13:15"
+  },
+  {
+    "name": "Sablich Center Finance",
+    "hours": [
+      "08:00 - 15:00",
+      "08:00 - 15:00",
+      "08:00 - 15:00",
+      "08:00 - 15:00",
+      "08:00 - 15:00"
+    ],
+    "desc": "On up-Friday's Sablich Center is open 08:00 - 13:00"
+  },
+  {
+    "name": "Airman & Family Readiness Center",
+    "hours": ["N/A", "10:30 & 16:30", "N/A", "10:30 & 16:30"]
+  },
+  {
+    "name": "Triangle Clinic",
+    "hours": [
+      "08:00-14:30",
+      "08:00-14:30",
+      "08:00-14:30",
+      "08:00-14:30",
+      "08:00-14:00"
+    ]
+  },
+  {
+    "name": "Student Security Office",
+    "hours": [
+      "08:00 - 16:30",
+      "08:00 - 16:30",
+      "08:00 - 16:30",
+      "08:00 - 16:30",
+      "08:00 - 16:30"
+    ],
+    "desc": "Closed for Lunch from 12:00 - 13:00. Closed on all CWS Fridays, Weekends, and Federal Holidays."
+  },
+  {
+    "name": "Triangle Clinic",
+    "tel": "228-376-0324"
+  },
+  {
+    "name": "Immunizations",
+    "tel": "228-376-3553"
+  },
+  {
+    "name": "ENT Clinic",
+    "tel": "228-376-0421"
+  },
+  {
+    "name": "Dental",
+    "tel": "228-376-0512"
+  },
+  {
+    "name": "GI Clinic",
+    "tel": "228-376-3835"
+  },
+  {
+    "name": "Neurology",
+    "tel": "228-376-3791"
+  },
+  {
+    "name": "BOMC",
+    "tel": "228-376-3163"
+  },
+  {
+    "name": "Orthopedics",
+    "tel": "228-376-0428"
+  },
+  {
+    "name": "Chiropractic",
+    "tel": "228-376-3412"
+  },
+  {
+    "name": "Referral Management",
+    "tel": "228-376-0490"
+  },
+  {
+    "name": "Dermatology",
+    "tel": "228-376-3501"
+  },
+  {
+    "name": "Optometry",
+    "tel": "228-376-0449"
+  },
+  {
+    "name": "Hematology",
+    "tel": "228-376-3845"
+  },
+  {
+    "name": "Mental Health",
+    "tel": "228-376-0385"
+  },
+  {
+    "name": "Lab",
+    "tel": "228-376-4435"
+  },
+  {
+    "name": "Urology",
+    "tel": "228-376-0456"
+  },
+  {
+    "name": "CT scan",
+    "tel": "228-376-4809"
+  },
+  {
+    "name": "Cardiology",
+    "tel": "228-376-3490"
+  },
+  {
+    "name": "Endocrinology",
+    "tel": "228-376-3887"
+  },
+  {
+    "name": "Pulmonology",
+    "tel": "228-376-5566"
+  },
+  {
+    "name": "BHOP",
+    "tel": "228-376-3761"
+  },
+  {
+    "name": "General Surgery",
+    "tel": "228-376-0425"
+  },
+  {
+    "name": "Women's Health",
+    "tel": "228-376-0433"
+  },
+  {
+    "name": "Public Health",
+    "tel": "228-376-3163"
+  },
+  {
+    "name": "Physical Therapy",
+    "tel": "228-376-0446"
+  },
+  {
+    "name": "Radiology (X-ray)",
+    "tel": "228-376-0481"
+  },
+  {
+    "name": "Base Taxi",
+    "tel": "228-377-2432"
+  },
+  {
+    "name": "Pharmacy",
+    "tel": "228-377-9791"
+  }
+]
