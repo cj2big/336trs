@@ -1,6 +1,7 @@
 [
   {
-    "name": "Mini-mall",
+    "name": "Mini mall (Triangle Shopette)",
+    "tel": "228-436-6608",
     "hours": [
       "10:00 - 20:00",
       "10:00 - 20:00",
@@ -21,8 +22,8 @@
       "09:00 - 19:00",
       "09:00 - 19:00",
       "09:00 - 19:00",
-      "N/A",
-      "N/A"
+      "09:00 - 19:00",
+      "09:00 - 17:00"
     ],
     "maps": "https://www.google.com/maps/place/Keesler+Base+Exchange/@30.4048697,-88.9077519,16.83z/data=!4m5!3m4!1s0x0:0x847f45c384bc5973!8m2!3d30.4062525!4d-88.9093427"
   },
@@ -41,19 +42,8 @@
     "maps": "https://www.google.com/maps/place/Pass+Registration+and+Visitor+Reception+Center/@30.3996908,-88.9088828,17.25z/data=!4m5!3m4!1s0x889c0fc195109487:0x43f9e12536c9b1c6!8m2!3d30.3989551!4d-88.9107895?hl=en"
   },
   {
-    "name": "Triangle Pool",
-    "hours": [
-      "CLOSED",
-      "12:00-17:00",
-      "12:00-17:00",
-      "12:00-17:00",
-      "12:00-18:00",
-      "12:00-18:00",
-      "CLOSED"
-    ]
-  },
-  {
-    "name": "Outprocessing: Short Sheet Briefing (at SPC)",
+    "name": "SPC: Outprocessing: Short Sheet Briefing (at SPC)",
+    "desc": "Student Processing Center",
     "hours": ["16:20", "16:20", "16:20", "N/A", "N/A", "N/A", "N/A"],
     "maps": ""
   },
@@ -63,13 +53,28 @@
     "maps": "https://www.google.com/maps/place/Keesler+Medical+Center/@30.4119026,-88.9112996,18.75z/data=!4m9!1m2!2m1!1shospital!3m5!1s0x0:0x74cf0b1b2228cd41!8m2!3d30.412556!4d-88.9106631!15sCghob3NwaXRhbJIBEW1pbGl0YXJ5X2hvc3BpdGFs"
   },
   {
-    "name": "Outprocessing: SPC",
+    "name": "SPC: Outprocessing: SPC",
+    "desc": "Student Processing Center",
     "hours": [
       "14:00-16:00",
       "14:00-16:00",
       "14:00-16:00",
       "14:00-16:00",
       "13:00-14:45",
+      "CLOSED",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "SPC: Student Processing Center",
+    "tel": "228-377-3468",
+    "desc": "The office you will utilize for tasks such as those related to in-processing, and out-processing. This office will have your Assignment Counselor who is there to help assit you with proceeding to your next base.<br>CWS Friday hours: 09:00 - 10:30",
+    "hours": [
+      "14:00 - 16:00",
+      "14:00 - 16:00",
+      "14:00 - 16:00",
+      "14:00 - 16:00",
+      "14:00 - 16:00",
       "CLOSED",
       "CLOSED"
     ]
@@ -96,7 +101,7 @@
     "desc": "Room 221"
   },
   {
-    "name": "Levitow Finance Office",
+    "name": "Finance: Mini Finance - Levitow",
     "hours": [
       "07:30 - 16:45",
       "07:30 - 16:45",
@@ -109,7 +114,8 @@
     "desc": "Closed 11:30 - 13:15"
   },
   {
-    "name": "Sablich Center Finance",
+    "name": "Finance: Finance Office - Sablich Center",
+    "tel": "228-376-8225",
     "hours": [
       "08:00 - 15:00",
       "08:00 - 15:00",
@@ -125,6 +131,8 @@
   },
   {
     "name": "Triangle Clinic",
+    "tel": "228-376-0324",
+    "desc": "Sick Call Hours:<ul><li>06:00-07:00</li></ul>Operating Hours:<ul><li>Mon, Tue, Thu, Fri: 06:00-16:00</li><li>Wed:06:00-14:00</li></ul>Shaving Waivers:<ul><li>Mon and Thu: 14:00</li></ul>",
     "hours": [
       "08:00-14:30",
       "08:00-14:30",
@@ -134,15 +142,154 @@
     ]
   },
   {
-    "name": "Student Security Office",
+    "name": "Security Clearance",
+    "tel": "228-376-2000",
     "hours": [
-      "08:00 - 16:30",
-      "08:00 - 16:30",
-      "08:00 - 16:30",
-      "08:00 - 16:30",
-      "08:00 - 16:30"
+      "08:00 - 17:00",
+      "08:00 - 17:00",
+      "08:00 - 17:00",
+      "08:00 - 17:00",
+      "08:00 - 17:00",
+      "CLOSED",
+      "CLOSED"
     ],
     "desc": "Closed for Lunch from 12:00 - 13:00. Closed on all CWS Fridays, Weekends, and Federal Holidays."
+  },
+  {
+    "name": "Security Forces Desk (Not for emergencies)",
+    "desc": "Not for emergencies. For situations not requiring immediate response.",
+    "tel": "228-377-3040"
+  },
+  {
+    "name": "SAPR",
+    "desc": "Sexual Assault Prevention and Response Office.<br>Sexual Assault Prevention and Response is available at Dolan Hall to assist with any concerns - Our Teal Rope program is run by the office at Dolan Hall and has positioned trained Airmen and Guardians within our squadrons who can assist immediately if needed.",
+    "tel": "228-377-8635"
+  },
+  {
+    "name": "Chaplain (On-Call)",
+    "desc": "Available 24/7. -- Chaplains are available during the Duty Day in the Fishbowl at the Levitow."
+  },
+  {
+    "name": "Airman's Attic (3rd Floor Holbrook)",
+    "desc": "The triangle thrift shop for uniform items.",
+    "hours": [
+      "17:30 - 19:30",
+      "CLOSED",
+      "17:30 - 19:30",
+      "CLOSED",
+      "17:30 - 19:30",
+      "CLOSED",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "Airman & Family Readiness Center",
+    "desc": "Closest office located at the Levitow. The AFRC provides many resources to support you and your family to include services such as: <ul><li>Financial Management</li><li>Military and Family Life Counselors</li><li>Sponsorship Help for Next Base</li><li>Information on Military Loans for Special Circumstances</li><li>Information about Military Benefits</li><li>Spousal Support</li></ul>",
+    "tel": "228-376-0155",
+    "hours": [
+      "08:00 - 17:00",
+      "08:00 - 17:00",
+      "08:00 - 17:00",
+      "09:00 - 17:00",
+      "08:00 - 16:00",
+      "CLOSED",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "Barbeer Shop",
+    "tel": "228-376-2000",
+    "desc": "Either the main BX barber shop or the mini-BX barber shop."
+  },
+  {
+    "name": "Dry Cleaning",
+    "tel": "228-207-4967",
+    "hours": [
+      "13:00 - 19:00",
+      "13:00 - 19:00",
+      "13:00 - 19:00",
+      "13:00 - 19:00",
+      "13:00 - 19:00",
+      "10:00 - 14:00",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "Fishbowl (Levitow)",
+    "tel": "228-376-2331",
+    "desc": "A commons area at the Levitow which can be used for studying, or relaxing after the duty day. Some things provided at the Levitow Fishbowl include video games, televisions (TV), music rooms, and a full kitchen.<br>On CWS Fridays, hours of operation is: 13:00 - 23:00",
+    "hours": [
+      "18:30 - 21:00",
+      "18:30 - 21:00",
+      "18:30 - 21:00",
+      "18:30 - 21:00",
+      "18:30 - 23:00",
+      "10:00 - 23:00",
+      "13:00 - 17:00"
+    ]
+  },
+  {
+    "name": "Vandenberg",
+    "tel": "228-377-3308",
+    "hours": [
+      "12:00 - 21:00",
+      "12:00 - 21:00",
+      "12:00 - 21:00",
+      "12:00 - 21:00",
+      "09:00 - 18:00",
+      "09:00 - 18:00",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "Vandenberg: Club",
+    "tel": "228-377-2424",
+    "hours": [
+      "CLOSED",
+      "CLOSED",
+      "CLOSED",
+      "CLOSED",
+      "18:00 - 00:00",
+      "18:00 - 00:00"
+    ]
+  },
+  {
+    "name": "Post Office",
+    "tel": "228-377-2289",
+    "hours": [
+      "11:40 - 15:00 / 15:30 - 18:10",
+      "11:40 - 15:00 / 15:30 - 18:10",
+      "11:40 - 15:00 / 15:30 - 18:10",
+      "11:40 - 15:00 / 15:30 - 18:10",
+      "11:40 - 15:00 / 15:30 - 18:10"
+    ]
+  },
+  {
+    "name": "Post Office Package Pickup",
+    "desc": "Hours on CWS Friday: 12:00 - 15:00",
+    "hours": [
+      "13:00 - 18:30",
+      "13:00 - 18:30",
+      "13:00 - 18:30",
+      "13:00 - 18:30",
+      "13:00 - 18:30",
+      "11:00 - 13:00",
+      "CLOSED"
+    ]
+  },
+  {
+    "name": "Triangle Fitness Center",
+    "tel": "228-377-3468",
+    "desc": "Triangle Gym.<br>CWS Friday Hours: 12:00-18:00",
+    "hours": [
+      "04:00 - 21:00",
+      "04:00 - 21:00",
+      "04:00 - 21:00",
+      "04:00 - 21:00",
+      "04:00 - 21:00",
+      "12:00 - 18:00",
+      "12:00 - 18:00"
+    ]
   },
   {
     "name": "Triangle Clinic",
